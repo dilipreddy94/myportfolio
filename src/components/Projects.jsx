@@ -5,7 +5,7 @@ import "./Projects.css";
 const Projects = () => {
   const projects = [
     {
-      title: "InsuraEase",
+      title: "Financial Insurance Management App 💰🔒",
       description:
         "A web-based application designed to help users manage their insurance policies, track premium payments, and receive policy renewal reminders. The app provides a secure dashboard where users can view and manage multiple insurance policies, compare plans, and connect with customer support.",
       keyFeatures: [
@@ -18,15 +18,11 @@ const Projects = () => {
         "🔐 Security & Authentication – Multi-layered security with JWT authentication and data encryption for safety."
       ],
       technologies: [
-                    "Frontend: React, TypeScript, Redux, Tailwind CSS.",
-                    "Backend: Node.js, Express.js.",
-                    "Database: MongoDB (NoSQL) or PostgreSQL (SQL).",
-                    "Authentication: JWT (JSON Web Token), Firebase Auth.",
-                    "Payments & Notifications: Stripe API (for online payments), Twilio API (SMS notifications)."
+                    "React, TypeScript, Redux, Node.js, Express.js, MongoDB, Tailwind CSS."
       ],
     },
     {
-      title: "ShopSphere",
+      title: "E-Commerce Marketplace 🛍️🚀",
       description:
         "A fully functional eCommerce website where users can browse products, add items to a cart, and place orders. The platform supports multiple vendors, allowing sellers to list their products and manage inventory.",
       keyFeatures: [
@@ -39,14 +35,41 @@ const Projects = () => {
         "🔒 Authentication & Security – OAuth login, role-based access control, and secure checkout for a safe shopping experience."
       ],
       technologies: [
-                      "Frontend: React, Next.js, Tailwind CSS.",
-                      "Backend: Node.js, Express.js.",
-                      "Database: PostgreSQL with Prisma ORM",
-                      "Authentication: Firebase Auth, OAuth 2.0.",
-                      "Payments & Notifications: Stripe, PayPal, Razorpay, ShipRocket API.",
-                      "State Management: Redux Toolkit."
+                      "React, Next.js, Redux, Tailwind CSS, Node.js, Express.js, PostgreSQL, Stripe API."
 ],
     },
+    {
+      title: "AI-Powered Task Management App 🔔📆",
+      description:
+        "A smart task and project management tool designed for individuals and teams, helping users stay organized with AI-driven scheduling and reminders.",
+      keyFeatures: [
+        "✅ Intelligent Task Prioritization – AI suggests priority levels based on deadlines.",
+        "📆 Calendar Integration – Sync tasks with Google Calendar and Outlook.",
+        "🔔 Smart Reminders – Personalized notifications based on habits.",
+        "🎨 Customizable Themes – Dark mode and theme customization options.",
+        "📊 Team Collaboration – Assign tasks, track progress, and communicate within the app."
+      ],
+      technologies: [
+                      "React, Redux, Firebase, Tailwind CSS, Node.js, OpenAI API (for AI task suggestions)."
+],
+    },
+
+    {
+      title: "Fitness & Wellness Tracker 🏋️🔢",
+      description:
+        "A mobile-friendly fitness tracking web app that helps users monitor their workouts, set goals, and receive health insights based on their progress.",
+      keyFeatures: [
+        "🏋️ Personalized Workout Plans – AI-generated routines based on fitness goals.",
+        "🔢 Calorie & Nutrition Tracking – Log meals and track daily intake.",
+        "📊 Progress Dashboard – Visualize weight loss, muscle gain, and milestones.",
+        "🛎 Habit Reminders – Custom alerts for hydration, workouts, and sleep.",
+        "🎯 Gamification & Challenges – Set challenges and earn achievement badges."
+      ],
+      technologies: [
+                      "React, React Native (for mobile), Firebase, Tailwind CSS, Chart.js"
+],
+    },
+
   ];
 
   return (
@@ -76,5 +99,4 @@ const Projects = () => {
     </section>
   );
 };
-
 export default Projects;

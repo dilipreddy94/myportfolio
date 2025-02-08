@@ -16,6 +16,7 @@
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: #4caf50;
+    font-family: serif;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -46,20 +47,22 @@
   
   .project-card h3 {
     font-size: 1.8rem;
-    color: #333;
-    font-weight: 600;
+    color: #751aec;
+    font-weight: bold;
     margin-bottom: 0.5rem;
   }
   
   .project-card p {
     font-size: 1.1rem;
     line-height: 1.7;
+    font-weight: 200;
     color: #555;
   }
   
   .project-card h4 {
     font-size: 1.3rem;
-    color: #333;
+    color: #d90e5c;
+    font-weight: bold;
     margin-top: 1.5rem;
   }
   
@@ -77,26 +80,6 @@
   .project-card strong {
     font-weight: bold;
     color: #4caf50;
-  }
-  
-  .btn-container {
-    margin-top: 1.5rem;
-  }
-  
-  .view-btn {
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1.1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .view-btn:hover {
-    background-color: #388e3c;
-    transform: scale(1.05);
   }
   
   /* Responsive Styles */

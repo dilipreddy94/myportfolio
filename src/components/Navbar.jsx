@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <a href="/" className="logo-link">My Portfolio</a>
+        <a href="#home" className="logo-link">My Portfolio</a>
       </div>
       <div
         className={`nav-links ${isMobile ? "mobile" : ""}`}
